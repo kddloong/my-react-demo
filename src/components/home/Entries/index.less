@@ -1,0 +1,44 @@
+.flex-container {
+	margin: 0 15px;
+}
+
+.flex-container__item-box {
+	display: flex;
+	text-align: center;
+	justify-content: flex-start;
+}
+
+.flex-container__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+}
+
+.flex-container__item-box > .flex-container__item + .flex-container__item {
+	margin-left: 10px;
+}
+
+.placeholder {
+	color: #bbb;
+	text-align: center;
+	line-height: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.item__icon {
+	width: 100%;
+	height: 100%;
+}
+
+.item__icon img {
+	margin: 0 auto;
+}
+
+.item__text {
+	font-size: 14px;
+	line-height: 1.5714;
+	margin-top: -10px;
+}
